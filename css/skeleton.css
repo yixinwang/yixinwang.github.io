@@ -163,9 +163,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #3467c7; }
 a:hover {
-  color: #0FA0CE; }
+  color: #6196fa; }
 
 
 /* Buttons
@@ -334,10 +334,12 @@ td {
   border-bottom: 1px solid #E1E1E1; }
 th:first-child,
 td:first-child {
-  padding-left: 0; }
+  padding-left: 2; }
 th:last-child,
 td:last-child {
-  padding-right: 0; }
+  padding-right: 2; }
+
+tr:nth-child(even) {background-color: #f2f2f2;}
 
 
 /* Spacing
