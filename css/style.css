@@ -571,3 +571,9 @@ button:focus,
     text-align : center;
     top        : 65%;
     }
+
+
+#indent-list
+{
+ text-indent:50px;
+}
