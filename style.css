@@ -925,17 +925,52 @@ button.topic-filter-clear {
   }
 }
 
+/* Keep year dots on the right on phones */
 @media (max-width: 960px) {
   .papers-main {
-    padding-right: 58px;
+    padding-right: 30px;
+  }
+
+  .year-nav-rail {
+    position: fixed;
+    right: max(8px, env(safe-area-inset-right));
+    top: 50%;
+    bottom: auto;
+    width: 12px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    z-index: 30;
   }
 
   .year-dots {
-    right: 14px;
+    position: static;
+    transform: none;
+    right: auto;
+    top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    pointer-events: auto;
   }
 
   .year-dot {
-    font-size: 0.62rem;
+    width: 10px;
+    height: 10px;
+    font-size: 0;
+    line-height: 0;
+    gap: 0;
+  }
+
+  .year-dot .dot {
+    width: 6px;
+    height: 6px;
+    margin: 2px;
+  }
+
+  .year-dot .dot-label {
+    display: none !important;
+    opacity: 0 !important;
   }
 }
 
