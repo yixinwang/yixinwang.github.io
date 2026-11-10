@@ -837,6 +837,7 @@ button.topic-filter-clear {
 }
 
 .topic-language-models { color: var(--t-llm-c);       background: var(--t-llm-bg); }
+.topic-robotics { color: var(--t-app-c);              background: var(--t-app-bg); }
 .topic-generative-models { color: var(--t-gen-c);     background: var(--t-gen-bg); }
 .topic-robustness { color: var(--t-robust-c);         background: var(--t-robust-bg); }
 .topic-strategic { color: var(--t-strategic-c);       background: var(--t-strategic-bg); }
