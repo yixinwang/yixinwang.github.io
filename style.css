@@ -830,6 +830,7 @@ button.topic-filter-clear {
 /* Strategic + expanded research-area colors for papers page */
 :root {
   --t-llm-c:         #9a3412;  --t-llm-bg:         #ffeadb;
+  --t-robotics-c:    #527347;  --t-robotics-bg:    #f2f8ed;
   --t-gen-c:         #0f766e;  --t-gen-bg:         #def7f3;
   --t-robust-c:      #92400e;  --t-robust-bg:      #fff3e0;
   --t-strategic-c:   #7c2d12;  --t-strategic-bg:   #feecdc;
@@ -837,7 +838,7 @@ button.topic-filter-clear {
 }
 
 .topic-language-models { color: var(--t-llm-c);       background: var(--t-llm-bg); }
-.topic-robotics { color: var(--t-app-c);              background: var(--t-app-bg); }
+.topic-robotics { color: var(--t-robotics-c);         background: var(--t-robotics-bg); }
 .topic-generative-models { color: var(--t-gen-c);     background: var(--t-gen-bg); }
 .topic-robustness { color: var(--t-robust-c);         background: var(--t-robust-bg); }
 .topic-strategic { color: var(--t-strategic-c);       background: var(--t-strategic-bg); }
